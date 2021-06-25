@@ -1,7 +1,7 @@
 
 # UE4 + GitHub Actions - example engine build
 
-This is a build system demonstration for the UE4 engine.
+this is a build system demonstration for the UE4 engine.
 
 The engine source code is stored in a private GitHub repo. This repo contains just the build instructions. It builds using GitHub Actions, using a self-hosted runner. The result is an installed build, similar to what Epic Games Launcher offers. The build is stored in a [Longtail](https://github.com/DanEngelbrecht/longtail) cloud store. [Google Cloud Platform](https://cloud.google.com/gcp) is used for VMs and storage.
 
